@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Clash Display", sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  top: 40px;
+  left: 175px;
+  width: 1090px;
+  height: 60px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo img {
+  height: 35px;
+  width: 32px;
+}
+
+.logo a {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-items {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.nav-items .home {
+  color: #ff5555;
+}
+
+.download-btn-container {
+  display: flex;
+  transform: translateX(200px);
+}
+
+.download-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  font-family: Clash Display;
+}
+
+.download-btn:hover {
+  background-color: #333;
+}
+
+.star1 {
+  margin-top: 40px;
+  transform: translateX(170px);
+}
+
+.star3 {
+  margin-top: 116px;
+  padding: 48px;
+  height: 48px;
+}
+
+.container {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 500px;
+  height: 400px;
+  display: block;
+  margin-left: 330px;
+  position: relative;
+  top: -160px;
+}
+
+.image-container span {
+  position: absolute;
+  width: 618px;
+  height: 128px;
+  top: 10px;
+  left: 60%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  padding: 10px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  color: black;
+  z-index: 1;
+}
+
+.para {
+  position: absolute;
+  top: 260px;
+  left: 34.2%;
+  transform: translateX(-50%);
+  width: 618px;
+}
+
+.para p {
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(99, 99, 99);
+}
+
+.started-btn-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.started-btn,
+.watch-video {
+  margin-right: 20px;
+  font-family: Clash Display;
+}
+
+.watch-video {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.watch-video img {
+  margin-right: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+.started-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.started-btn:hover {
+  background-color: #333;
+}
+
+.container2 {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  width: 50%;
+}
+
+.iphone-image3 {
+  position: absolute;
+  top: 160px;
+  left: 60px;
+  width: 55%;
+  z-index: 4;
+}
+
+.iphone-image2 {
+  position: absolute;
+  top: 250px;
+  left: 160px;
+  width: 65%;
+  z-index: 3;
+}
+
+.iphone-image {
+  position: absolute;
+  top: 300px;
+  left: 260px;
+  width: 55%;
+  z-index: 2;
+}
+
+.group2-image {
+  position: absolute;
+  top: 220px;
+  left: 200px;
+  width: 55%;
+  z-index: 1;
+}
+
+.group-image {
+  position: relative;
+  width: 90%;
+  z-index: 0;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.left-part {
+  position: relative;
+  width: 50%;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  position: absolute;
+}
+
+.img1 {
+  bottom: 0;
+  left: 5%;
+  z-index: 1;
+}
+
+.img2 {
+  top: 60px;
+  left: 5%;
+  z-index: 2;
+}
+
+.img3 {
+  top: 105px;
+  left: 12%;
+  z-index: 3;
+  transform: rotate(15deg);
+}
+
+.img4 {
+  top: 200px;
+  right: -5px;
+}
+
+.right-part {
+  width: 45%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-part .feature-title,
+.right-part .main-title,
+.right-part .feature-item {
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  color: #ff5555;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.feature-name {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
