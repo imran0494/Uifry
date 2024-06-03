@@ -149,8 +149,8 @@ body {
   display: flex;
   align-items: center;
   position: absolute;
-  top: 400px;
-  left: 50%;
+  top: 350px;
+  left: 62.7%;
   transform: translateX(-50%);
   width: 100%;
 }
